@@ -12,6 +12,8 @@ categories: robots
 - [Particle Filter, RRT* and Pure Pursuit Navigation of a Robot Vacuum](https://youtube.com/playlist?list=PLGzlZQ95yENrl-q4h6xQOG5QZb9IsN_YP)
 - [Attempted Double Pendulum on a Cart Controlled by Reinforcement Learning](https://github.com/krish-suresh/double-pendulum-rl)
 - [UR5 Arms and CV Pipeline Used to Play the Game Perfection](https://github.com/krish-suresh/hiro-perfection-game/blob/main/README.md)
+
+
 <img src="https://user-images.githubusercontent.com/12313362/174662187-fd41e421-a0f3-4201-ae66-41b67a5bffd6.jpg" alt="neato" width="200"/>
 <img src="https://user-images.githubusercontent.com/12313362/174662188-d5225f3d-acc2-44b7-9482-789dc02dc46d.jpg" alt="double pendulum" width="200"/>
 <img src="https://user-images.githubusercontent.com/12313362/174662442-c985a2f8-a8a0-4ff2-a098-3627b625f756.png" alt="hiro" width="200"/>
