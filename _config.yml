@@ -23,9 +23,9 @@ email: ksuresh@olin.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Blog of Krishna's learning and projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "/blog" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username: krish-suresh 
 
 # Build settings
 theme: minima
