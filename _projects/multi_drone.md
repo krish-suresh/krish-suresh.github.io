@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Multi-Drone View Planning - CMU AirLab"
-description: "Greedy Perspectives: collaborative multi-drone perception for 3D object detection."
+description: "Collaborative multi-drone perception."
 img: assets/img/projects/multi-drone.png
 importance: 3
 category: Robotics
