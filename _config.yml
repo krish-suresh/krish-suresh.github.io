@@ -8,7 +8,7 @@ middle_name:
 last_name: Suresh
 contact_note:
 description: >
-  Krishna Suresh - PhD student at Carnegie Mellon University Robotics Institute. Robotics, dynamic manipulation, learning-based control.
+  Krishna Suresh - Robotics PhD student at Carnegie Mellon University Robotics Institute. Robotics, dynamic manipulation, learning-based control.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -16,7 +16,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # pineapple icon from original site
 
-url: https://krish-suresh.github.io # the base hostname & protocol for your site
+url: https://krishnasuresh.org # the base hostname & protocol for your site
 baseurl: "" # leave blank for username.github.io sites
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
