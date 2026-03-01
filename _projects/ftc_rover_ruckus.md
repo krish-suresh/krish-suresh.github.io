@@ -28,7 +28,16 @@ FIRST Tech Challenge Rover Ruckus season (2018-2019) as Captain of a 14-member t
     </div>
 </div>
 
+
 #### Robot Demos
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/rr4.web.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/rr5.web.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/img/projects/rr1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -38,6 +47,26 @@ FIRST Tech Challenge Rover Ruckus season (2018-2019) as Captain of a 14-member t
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/img/projects/rr3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+
+#### Competition Photos
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/ftc-rover-ruckus-5.jpg" title="Robot inspection at Worlds" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/ftc-rover-ruckus-6.jpg" title="Competition field" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/ftc-rover-ruckus-7.jpg" title="Team photo at Worlds" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/ftc-rover-ruckus-8.jpg" title="Robot demo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
