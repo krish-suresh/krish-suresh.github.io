@@ -5,7 +5,7 @@
         {% if project.img %}
           <div class="col-md-6">
             {% assign img_ext = project.img | split: '.' | last %}
-            {% if img_ext == 'mp4' or img_ext == 'webm' %}
+            {% if img_ext == 'mp4' or img_ext == 'webm' or img_ext == 'mov' %}
               <video src="{{ project.img | relative_url }}" class="card-img" autoplay loop muted playsinline width="100%" height="auto"></video>
             {% else %}
               {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}

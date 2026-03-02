@@ -3,7 +3,7 @@
     <div class="card h-100 hoverable">
       {% if project.img %}
         {% assign img_ext = project.img | split: '.' | last %}
-        {% if img_ext == 'mp4' or img_ext == 'webm' %}
+        {% if img_ext == 'mp4' or img_ext == 'webm' or img_ext == 'mov' %}
           <video src="{{ project.img | relative_url }}" class="card-img-top" autoplay loop muted playsinline width="100%" height="auto"></video>
         {% else %}
           {%
