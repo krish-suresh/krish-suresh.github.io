@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-27'
+  last_updated: '2026-03-11'
 papers:
   4cDemjkAAAAJ:9yKSN-GCB0IC:
     citations: 2
@@ -17,3 +17,7 @@ papers:
     citations: 0
     title: "Philosophy of FIRST\xAE"
     year: '2020'
+  4cDemjkAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Learning Deformable Object Manipulation Using Task-Level Iterative Learning Control
+    year: '2026'
