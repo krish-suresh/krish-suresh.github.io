@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2026-03-11'
+  last_updated: '2026-05-15'
 papers:
   4cDemjkAAAAJ:9yKSN-GCB0IC:
     citations: 2
     title: 'The Invisible Map: Visual-Inertial SLAM with Fiducial Markers for Smartphone-based Indoor Navigation'
     year: '2023'
+  4cDemjkAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Wiggle and Go! System Identification for Zero-Shot Dynamic Rope Manipulation
+    year: '2026'
   4cDemjkAAAAJ:UeHWp8X0CEIC:
-    citations: 5
+    citations: 6
     title: 'Greedy Perspectives: Multi-Drone View Planning for Collaborative Perception in Cluttered Environments'
     year: '2024'
   4cDemjkAAAAJ:u-x6o8ySG0sC:
