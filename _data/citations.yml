@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-15'
+  last_updated: '2026-06-10'
 papers:
   4cDemjkAAAAJ:9yKSN-GCB0IC:
     citations: 2
@@ -13,6 +13,10 @@ papers:
     citations: 6
     title: 'Greedy Perspectives: Multi-Drone View Planning for Collaborative Perception in Cluttered Environments'
     year: '2024'
+  4cDemjkAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Learning Dynamic Rope Manipulation Using Task-Level Iterative Learning Control
+    year: '2026'
   4cDemjkAAAAJ:u-x6o8ySG0sC:
     citations: 0
     title: "Juniper Robotics\u2019 FTC Experience"
@@ -21,7 +25,3 @@ papers:
     citations: 0
     title: "Philosophy of FIRST\xAE"
     year: '2020'
-  4cDemjkAAAAJ:zYLM7Y9cAGgC:
-    citations: 0
-    title: Learning Deformable Object Manipulation Using Task-Level Iterative Learning Control
-    year: '2026'
