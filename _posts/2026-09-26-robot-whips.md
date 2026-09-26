@@ -495,6 +495,10 @@ Contact dynamics, force control, changes to the dynamics -->
 
 If you have any cool dynamic manipulation tasks you want a robot to do send it our way!
 
+## Acknowledgments
+
+This work was funded by the [Robotics and AI Institute](https://rai-inst.com/).
+
 ## Footnotes
 
 [^robots]: The robot in the whip cracking demo is an OpenarmX and the robot in the cleat demo is an xArm7 (with green tape to reduce IR reflections of the mocap system).
