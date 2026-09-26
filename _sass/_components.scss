@@ -99,33 +99,50 @@ ul.task-list input[type="checkbox"] {
     border: 0;
     border-radius: 8px;
   }
+
+  &:is(:fullscreen, :-webkit-full-screen) {
+    width: 100%;
+    height: 100%;
+    background: var(--global-bg-color);
+
+    &::before {
+      display: none;
+    }
+
+    > iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+    }
+  }
 }
 
-.viser-interaction-hint {
+.viser-fullscreen-toggle {
   position: absolute;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0.75rem;
+  right: 0.75rem;
   z-index: 1;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  width: max-content;
-  max-width: calc(100% - 2rem);
-  padding: 0.625rem 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 999px;
-  background: rgba(24, 35, 48, 0.7);
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  background: rgba(24, 35, 48, 0.8);
   color: #fff;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
   font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 1.4;
-  text-align: center;
-  pointer-events: none;
+  line-height: 1;
+  cursor: pointer;
 
-  span {
-    color: inherit;
+  &:hover {
+    background: rgba(24, 35, 48, 0.95);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
   }
 }
 
