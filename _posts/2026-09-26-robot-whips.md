@@ -486,7 +486,7 @@ Sometimes the high speed motion performed by the demonstrator is too fast or in 
 
 Because it is fun!
 
-But I do have to call out the nice [paper](https://publications.ri.cmu.edu/storage/publications/pub_files/pub2/mason_matthew_1993_1/mason_matthew_1993_1.pdf) by Matt Mason giving much better reasoning.
+But I do have to call out the nice [paper](https://publications.ri.cmu.edu/storage/publications/pub_files/pub2/mason_matthew_1993_1/mason_matthew_1993_1.pdf) by Matt Mason and Kevin Lynch giving much better reasoning.
 
 <!-- # When would retargeting fail?
 
