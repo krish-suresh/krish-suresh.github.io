@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic manipulation by just tracking the demonstration
+title: 🤠 The need for speed! Dynamic manipulation by just tracking the demonstration
 author: Krishna Suresh and Chris Atkeson
 date: 2026-09-26
 description: ""
@@ -17,14 +17,13 @@ height="1080"
 class="img-fluid rounded w-100"
 controls
 autoplay
-muted
 playsinline
 preload="metadata"
 aria-label="Robot whips teaser"
 
 > </video>
 
-<p class="text-center"><i class="fa-solid fa-volume-high" aria-hidden="true"></i> <em>Turn on sound</em></p>
+<p class="text-center"><i class="fa-solid fa-volume-high" aria-hidden="true"></i> <em>Sound on — press play if needed.</em></p>
 
 Once upon a time, robot learning from demonstration of dynamic tasks was really time consuming and annoying to get working. But today, thanks to the magic of agentic programming, it can be surprisingly straightforward[^credit-assignment]. And sometimes, **just copying the demonstrating** works, and the robot does something that impresses (or scares) your friends.
 
@@ -468,6 +467,8 @@ Sometimes even if the robot can't track the demonstration trajectory perfectly t
   ></video>
   <figcaption class="caption text-center">Robot lassoing a cleat.</figcaption>
 </figure>
+
+More videos of robot lassoing [https://www.youtube.com/shorts/ey0uHuXv8Fs](https://www.youtube.com/shorts/ey0uHuXv8Fs).
 
 # How to automatically track a demonstration?
 
