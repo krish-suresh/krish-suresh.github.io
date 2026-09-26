@@ -34,7 +34,7 @@ Motion capture with lightweight (or no) markers provides an easier way to captur
 We found that if the robot is able to track just the demonstration hand motion well enough, it can actually perform some complex dynamic manipulation skills open-loop without any learning. This is actually annoying since one
 of us is trying to do a thesis on learning dynamic tasks. We capture a human demonstration of a dynamic task such as cracking a whip, then generate a robot trajectory to track the hand motion, and execute open-loop tracking of the trajectory on the robot. Today this pipeline can be nearly fully automatically implemented with GPT-6 Astra. Below we show a two example dynamic manipulation tasks: cracking a whip and lassoing a cleat.[^robots]
 
-Quick side note: the whips shown in this post are called signal/stock whips. These whips are built to generate the loud cracking noise when the tip breaks the sound barrier and is a popular art form: [example performance](https://youtu.be/ietBtr7sOvs?t=41).
+Quick side note: the whips shown in this post are called signal/stock whips. These whips are built to generate the loud cracking noise when the tip breaks the sound barrier and is a popular art form: [Bavarian Whip Show](https://www.youtube.com/watch?v=4I6rVhg5UEY), [Four Corners](https://youtu.be/ietBtr7sOvs?t=41).
 
 # Cracking a whip
 
@@ -491,9 +491,8 @@ But we do have to call out a nice [paper](https://publications.ri.cmu.edu/storag
 
 Contact dynamics, force control, changes to the dynamics -->
 
-# Send us your ideas
-
-If you have any cool dynamic manipulation tasks you want a robot to do send it our way!
+# Send us your demos and ideas
+Send us your work on robots doing or learning dynamic tasks. Also if you have any cool dynamic manipulation tasks you want a robot to do send it our way! 
 
 ## Acknowledgments
 
