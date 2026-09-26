@@ -17,6 +17,7 @@ height="1080"
 class="img-fluid rounded w-100"
 controls
 autoplay
+muted
 playsinline
 preload="metadata"
 aria-label="Robot whips teaser"
@@ -26,7 +27,6 @@ aria-label="Robot whips teaser"
 <p class="text-center"><i class="fa-solid fa-volume-high" aria-hidden="true"></i> <em>Turn on sound</em></p>
 
 Once upon a time, robot learning from demonstration of dynamic tasks was really time consuming and annoying to get working. But today, thanks to the magic of agentic programming, it can be surprisingly straightforward[^credit-assignment]. And sometimes, **just copying the demonstrating** works, and the robot does something that impresses (or scares) your friends.
-
 
 Many current robot demos show amazing capabilities but we often only see robots perform quasi-static behaviors. Quasi-static means that the robot can be paused and resumed at any time without the physics of the world taking over and causing problems. Often a key element of the robot training pipeline is human teleoperation; either done directly with the robot or through robot gripper hands such as [UMI](https://umi-gripper.github.io/). But unfortunately, doing dynamic tasks like juggling using teleoperation is hard[^teleop].
 
@@ -521,7 +521,9 @@ If you have any cool dynamic manipulation tasks you want a robot to do send it o
 [^robots]: The robot in the whip cracking demo is an OpenarmX and the robot in the cleat demo is an xArm7 (with green tape to reduce IR reflections of the mocap system).
 
 [^teleop]: It is difficult to teleoperate a robot fast because 1) the human operator feels different inertial forces than the robot experiences, and perception of contact or grasp forces is difficult, 2) robot velocity, acceleration, force or torque, and motor current and power limits are not intuitive to the human operator, especially near singularities, which happens often with the wrist, and 3) it is scary and there is a high risk of damaging the manipulated objects, the teleoperation setup, or the robot.
+
 <!-- Teleop limits the capabilities of the robot primarily in its ability to produce high velocity motions since robot motions which can achieve high velocity are difficult to generate online since a controller would need to take into account the full motion to effectively actuate the motors to not violate joint and power limits (velocity, torque, current draw, etc.). -->
 
 [^offline]: For data capture where a human demonstrator is performing a task through a data capture glove such as UMI, Koala, etc. it is possible to generate robot motions to track fast hand trajectories, but it is often difficult for a demonstrator to actually perform dynamic behaviors through the capture interface due to its weight, momentum, and bulk. Try to brush your teeth with weights strapped to your wrist.
+
 <!-- For data capture where a human demonstrator is performing a task through a data capture glove such as [UMI](https://umi-gripper.github.io/), [Koala](https://koalagripper.rai-inst.com/), etc. it is then possible to generate robot motions to track fast hand trajectories, but it is often difficult for a demonstrator to actually perform dynamic behaviors through the capture interface due to its weight and bulk. -->
