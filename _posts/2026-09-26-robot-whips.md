@@ -25,7 +25,7 @@ aria-label="Robot whips teaser"
 
 <p class="text-center"><i class="fa-solid fa-volume-high" aria-hidden="true"></i> <em>Sound on — press play if needed.</em></p>
 
-Once upon a time, robot learning from demonstration of dynamic tasks was really time consuming and annoying to get working. But today, thanks to the magic of agentic programming, it can be surprisingly straightforward[^credit-assignment]. And sometimes, **just copying the demonstrating** works, and the robot does something that impresses (or scares) your friends.
+Once upon a time, robot learning from demonstration of dynamic tasks was really time consuming and annoying to get working. But today, thanks to the magic of agentic programming, it can be surprisingly straightforward. And sometimes, **just copying the demonstrating** works, and the robot does something that impresses (or scares) your friends.
 
 Many current robot demos show amazing capabilities but we often only see robots perform quasi-static behaviors. Quasi-static means that the robot can be paused and resumed at any time without the physics of the world taking over and causing problems. Often a key element of the robot training pipeline is human teleoperation; either done directly with the robot or through robot gripper hands such as [UMI](https://umi-gripper.github.io/). But unfortunately, doing dynamic tasks like juggling using teleoperation is hard[^teleop].
 
