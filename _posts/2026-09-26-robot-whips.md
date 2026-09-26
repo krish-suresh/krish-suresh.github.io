@@ -29,27 +29,7 @@ Once upon a time, robot learning from demonstration of dynamic tasks was really 
 
 Many current robot demos show amazing capabilities but we often only see robots perform quasi-static behaviors. Quasi-static means that the robot can be paused and resumed at any time without the physics of the world taking over and causing problems. Often a key element of the robot training pipeline is human teleoperation; either done directly with the robot or through robot gripper hands such as [UMI](https://umi-gripper.github.io/). But unfortunately, doing dynamic tasks like juggling using teleoperation is hard[^teleop].
 
-<div class="row align-items-start">
-  <div class="col-md-7" markdown="1">
 Motion capture with lightweight (or no) markers provides an easier way to capture dynamic behaviors directly since doing hard tasks like [cutting a tree](https://www.youtube.com/shorts/BEsc653WLAs?is=-9BpDgYcV-9lYeNm) would be difficult to demonstrate through a gripper interface[^offline]. Today there are a number of solutions which aim to estimate human hand and body poses such as [GVHMR](https://zju3dv.github.io/gvhmr/) or [HaMeR](https://geopavlakos.github.io/hamer/). And a number of subsequent works which aim to retarget that human motion to humanoid robots to achieve dynamic behaviors ([PHP Parkour](https://php-parkour.github.io/)). These examples are often limited to locomotion as retargeting of manipulation behaviors is not fully there yet (but there are a number of promising results: [RewardAI](https://www.rewardai.com/blog/OM-1/), [Unitree](https://www.youtube.com/watch?v=24h4FTH7plY)).
-
-  </div>
-  <div class="col-md-5">
-    <figure>
-      <div class="embed-responsive embed-responsive-16by9 rounded">
-        <iframe
-          class="embed-responsive-item"
-          src="https://www.youtube.com/embed/4PzpztFJZP8?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=4PzpztFJZP8&amp;cc_load_policy=1&amp;cc_lang_pref=en&amp;playsinline=1"
-          title="I feel the need... the need for speed!"
-          allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <figcaption class="caption text-center">I feel the need... the need for speed!</figcaption>
-    </figure>
-  </div>
-</div>
 
 We found that if the robot is able to track just the demonstration hand motion well enough, it can actually perform some complex dynamic manipulation skills open-loop without any learning. This is actually annoying since one
 of us is trying to do a thesis on learning dynamic tasks. We capture a human demonstration of a dynamic task such as cracking a whip, then generate a robot trajectory to track the hand motion, and execute open-loop tracking of the trajectory on the robot. Today this pipeline can be nearly fully automatically implemented with GPT-6 Astra. Below we show a two example dynamic manipulation tasks: cracking a whip and lassoing a cleat.[^robots]
