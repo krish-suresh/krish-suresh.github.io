@@ -35,6 +35,7 @@ In these demos, the ball has no pre-specified trajectory and finds the contact p
 </div>
 
 ## Contact Smoothing: Force at a Distance and Reducing Rho
+
 Examples of how the contact smoothing behavior impacts the dynamics, contact smoothing is iteratively reduced over trials.
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">

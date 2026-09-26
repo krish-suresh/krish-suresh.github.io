@@ -32,6 +32,7 @@ QEA2 Final Project (2022) programming a NEATO robot vacuum to navigate through a
 </div>
 
 #### Demos
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/gT6xqtORS8M" class="img-fluid rounded z-depth-1" width="100%" %}

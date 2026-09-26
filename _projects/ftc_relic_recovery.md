@@ -26,6 +26,7 @@ FIRST Tech Challenge Relic Recovery season (2017-2018) as Captain of a 10-member
 </div>
 
 #### 6 Glyph Autonomous at World Championships
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         <video src="https://user-images.githubusercontent.com/12313362/140759203-8f6073fb-3395-4eb5-bfa1-2db3c4d93143.mp4" class="img-fluid rounded z-depth-1" width="100%" controls></video>
@@ -33,6 +34,7 @@ FIRST Tech Challenge Relic Recovery season (2017-2018) as Captain of a 10-member
 </div>
 
 #### Robot Demos
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/YdShcqBNrZQ" class="img-fluid rounded z-depth-1" width="100%" %}

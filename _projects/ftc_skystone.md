@@ -43,6 +43,7 @@ Led Juniper Robotics team 16449 (13 members) as Founder and Captain during the 2
 </div>
 
 #### Teleop
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/QLDbSP5Lqjc" class="img-fluid rounded z-depth-1" width="100%" %}
@@ -50,6 +51,7 @@ Led Juniper Robotics team 16449 (13 members) as Founder and Captain during the 2
 </div>
 
 #### Autonomous
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/8lEKfFeh25g" class="img-fluid rounded z-depth-1" width="100%" %}

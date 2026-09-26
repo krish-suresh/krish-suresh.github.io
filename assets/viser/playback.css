@@ -1,0 +1,4 @@
+/* Hide the speed selector beside the recording timeline. Playback stays at 1x. */
+.mantine-Paper-root > .mantine-Slider-root ~ .mantine-Select-root {
+  display: none;
+}

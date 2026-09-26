@@ -28,8 +28,8 @@ FIRST Tech Challenge Rover Ruckus season (2018-2019) as Captain of a 14-member t
     </div>
 </div>
 
-
 #### Robot Demos
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/img/projects/rr4.web.mp4" class="img-fluid rounded z-depth-1" controls=true %}
@@ -71,6 +71,7 @@ FIRST Tech Challenge Rover Ruckus season (2018-2019) as Captain of a 14-member t
 </div>
 
 #### Competition Videos
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/eMDjBjrF5hU" class="img-fluid rounded z-depth-1" width="100%" %}

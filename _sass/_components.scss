@@ -34,6 +34,101 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
+// Media playback speed controls
+
+.media-speed-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  max-width: 100%;
+  padding: 0.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background: var(--global-code-bg-color);
+
+  > button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.25rem;
+    margin: 0;
+    padding: 0.5rem 0.875rem;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--global-text-color);
+    font: inherit;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25;
+    text-transform: none;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--global-divider-color);
+    }
+
+    &[aria-pressed="true"] {
+      background: var(--global-bg-color);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+
+  .media-speed-toggle-rate {
+    color: inherit;
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.7;
+  }
+}
+
+// Interactive Viser embeds
+
+.viser-embed {
+  position: relative;
+
+  > iframe {
+    display: block;
+    border: 0;
+    border-radius: 8px;
+  }
+}
+
+.viser-interaction-hint {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: max-content;
+  max-width: calc(100% - 2rem);
+  padding: 0.625rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(24, 35, 48, 0.7);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  pointer-events: none;
+
+  span {
+    color: inherit;
+  }
+}
+
 // Card
 
 .card {

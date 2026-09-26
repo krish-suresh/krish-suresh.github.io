@@ -29,6 +29,6 @@ Hello! I am a second-year PhD student at the [Carnegie Mellon University Robotic
 
 I graduated from Olin College of Engineering, where I studied Robotics. At Olin, I worked with [Victoria Dean](https://vdean.github.io/) on developing modular robot manipulation policies and with [Paul Ruvolo](https://www.olin.edu/bios/paul-ruvolo) on Visual-SLAM for indoor navigation to help blind/low-vision individuals.
 
-I am passionate about all aspects of developing autonomous robot systems and have experience working with drones, manipulators, soft robots, mobile robots, and more (check out my project page!). 
+I am passionate about all aspects of developing autonomous robot systems and have experience working with drones, manipulators, soft robots, mobile robots, and more (check out my project page!).
 
 [YouTube](https://www.youtube.com/@krishnasuresh) / [GitHub](https://github.com/krish-suresh) / [LinkedIn](https://www.linkedin.com/in/sureshka/) / [Google Scholar](https://scholar.google.com/citations?user=4cDemjkAAAAJ&hl=en) / ksuresh2 at andrew dot cmu dot edu
