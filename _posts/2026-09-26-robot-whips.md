@@ -4,6 +4,7 @@ title: The need for speed
 author: Krishna Suresh and Chris Atkeson
 date: 2026-09-26
 description: ""
+og_image: https://krishnasuresh.org/assets/img/robot-whips/social-preview.png
 tags: []
 categories: []
 related_posts: false
