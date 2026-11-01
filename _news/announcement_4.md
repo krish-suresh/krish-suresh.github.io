@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk on "How should we retarget human behavior to humanoids?" at the **CMU Vision Reading Group**. [Watch the talk](https://youtu.be/qwKxkQQ1kqY?si=ti2zgRQFuUxkIinJ).
+I gave a talk on "[How should we retarget human behavior to humanoids?](https://youtu.be/qwKxkQQ1kqY?si=ti2zgRQFuUxkIinJ)" at the CMU Vision Reading Group.
