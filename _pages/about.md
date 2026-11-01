@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-Hello! I am a second-year PhD student at the [Carnegie Mellon University Robotics Institute](https://www.ri.cmu.edu/), advised by [Chris Atkeson](https://www.cs.cmu.edu/~cga/). I work on getting robots to efficiently learn from observation and practice by leveraging human instruction. I am currently developing methods for highly-dynamic deformable object manipulation ([flying knots](https://flying-knots.github.io/)).
+Hello! I am a third-year PhD student at the [Carnegie Mellon University Robotics Institute](https://www.ri.cmu.edu/), advised by [Chris Atkeson](https://www.cs.cmu.edu/~cga/). I work on getting robots to efficiently learn from observation and practice by leveraging human instruction. I am currently developing methods for highly-dynamic deformable object manipulation ([flying knots](https://flying-knots.github.io/)).
 
 I graduated from Olin College of Engineering, where I studied Robotics. At Olin, I worked with [Victoria Dean](https://vdean.github.io/) on developing modular robot manipulation policies and with [Paul Ruvolo](https://www.olin.edu/bios/paul-ruvolo) on Visual-SLAM for indoor navigation to help blind/low-vision individuals.
 
